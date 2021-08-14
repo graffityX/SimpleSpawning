@@ -1,0 +1,22 @@
+name: SimpleSpawning
+author: graffity_X
+description: A simple spawnsystem with custom messages
+version: 1.0
+api-version: 1.16
+main: at.graffity.spawnpl.main.Main
+softdepend: [PlaceholderAPI]
+
+commands:
+   setjoinmsg:
+      description: Sets the message at player join!
+   setfirstjoinmsg:
+      description: Sets the message at player's first join!
+   setquitmsg:
+      description: Sets quit message!
+   setnewbiespawn:
+      description: Sets the spawnpoint for newbies!
+   setkits:
+      description: Sets the kits for newbies!
+
+
+
